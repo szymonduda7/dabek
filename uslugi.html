@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Usługi | Wojciech Dąbek, Dekarstwo i podnośnik koszowy</title>
+<meta name="description" content="Pełna oferta usług Wojciecha Dąbka: pokrycia dachowe, więźby, naprawy dachów, rynny, obróbki blacharskie oraz usługi podnośnikiem koszowym 20 m. Dubin i okolice.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+<link rel="stylesheet" href="styles.css">
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          ink: '#191b17',
+          'ink-soft': '#4d5047',
+          bone: '#f2efe3',
+          'bone-raised': '#faf8ef',
+          charcoal: '#1c1e18',
+          'charcoal-raised': '#262920',
+          oak: '#b06a2e',
+          'oak-deep': '#7e4a1f',
+          'oak-bright': '#cf8442',
+          sky: '#3f6f82',
+          'sky-light': '#9ec2cf',
+        },
+        fontFamily: {
+          display: ['"Archivo Black"', 'sans-serif'],
+          sans: ['"Work Sans"', 'sans-serif'],
+        },
+      },
+    },
+  };
+</script>
+</head>
+<body class="bg-bone text-ink">
+
+<!-- ============ HEADER ============ -->
+<header id="site-header" class="site-header fixed top-0 left-0 right-0 z-50 is-scrolled">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 h-16 md:h-20 flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-2.5 group">
+      <span class="font-display text-lg md:text-xl tracking-tight leading-none text-bone-raised">Wojciech Dąbek</span>
+    </a>
+    <nav class="hidden md:flex items-center gap-8 text-sm font-semibold uppercase tracking-wide">
+      <a href="uslugi.html" class="nav-link text-bone-raised">Usługi</a>
+      <a href="index.html#realizacje" class="nav-link">Realizacje</a>
+      <a href="index.html#opinie" class="nav-link">Opinie</a>
+      <a href="index.html#kontakt" class="nav-link">Kontakt</a>
+    </nav>
+    <a href="tel:605216683" class="btn btn-primary rounded-full px-5 py-2.5 text-sm">
+      <i data-lucide="phone" class="w-4 h-4"></i>
+      605 216 683
+    </a>
+  </div>
+</header>
+
+<!-- ============ PAGE HERO ============ -->
+<section class="relative bg-charcoal dark-radials overflow-hidden pt-32 pb-28 md:pt-40 md:pb-36 px-5 md:px-8">
+  <div class="grain"></div>
+  <div class="relative max-w-7xl mx-auto">
+    <a href="index.html" class="inline-flex items-center gap-2 text-sky-light hover:text-oak-bright transition-colors text-sm font-semibold uppercase tracking-wide mb-8">
+      <i data-lucide="arrow-left" class="w-4 h-4"></i>
+      Strona główna
+    </a>
+    <div class="rule-bar mb-5"></div>
+    <h1 class="font-display uppercase text-bone-raised leading-[0.95] tracking-tight text-4xl sm:text-6xl md:text-7xl max-w-4xl">
+      Dach i wysokość <span class="text-oak-bright">w jednych rękach</span>
+    </h1>
+    <p class="mt-6 text-lg md:text-xl text-sky-light max-w-2xl leading-relaxed">
+      Dziewięć usług dekarsko-budowlanych, wliczając w to własny podnośnik koszowy o zasięgu 20 metrów. Krycie, naprawy, rynny, obróbki blacharskie i prace wysokościowe, wykonane przez tego samego fachowca od początku do końca.
+    </p>
+  </div>
+  <svg class="pitch-divider absolute -bottom-px left-0 text-bone" viewBox="0 0 1200 60" preserveAspectRatio="none" fill="currentColor">
+    <path d="M0,60 L0,4 L1200,44 L1200,60 Z"/>
+  </svg>
+</section>
+
+<!-- ============ SERVICE CARDS ============ -->
+<section class="py-20 md:py-24 px-5 md:px-8 bg-bone">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <article class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-14 h-14 rounded-full bg-oak/10 flex items-center justify-center mb-6">
+          <i data-lucide="layers" class="w-7 h-7 text-oak-deep"></i>
+        </div>
+        <h2 class="font-display uppercase text-xl tracking-tight mb-3">Pokrycia dachowe</h2>
+        <p class="text-ink-soft leading-relaxed">Zrywamy stare poszycie i montujemy nowe, dachówkę ceramiczną lub blachodachówkę, dopasowane do konstrukcji i spadku dachu.</p>
+      </article>
+
+      <article class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-14 h-14 rounded-full bg-oak/10 flex items-center justify-center mb-6">
+          <i data-lucide="hammer" class="w-7 h-7 text-oak-deep"></i>
+        </div>
+        <h2 class="font-display uppercase text-xl tracking-tight mb-3">Więźby dachowe i cieślarka</h2>
+        <p class="text-ink-soft leading-relaxed">Budowa konstrukcji dachu od pierwszej krokwi, łacenie, deskowanie i montaż membran dachowych.</p>
+      </article>
+
+      <article class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-14 h-14 rounded-full bg-oak/10 flex items-center justify-center mb-6">
+          <i data-lucide="wrench" class="w-7 h-7 text-oak-deep"></i>
+        </div>
+        <h2 class="font-display uppercase text-xl tracking-tight mb-3">Naprawa i renowacja dachów</h2>
+        <p class="text-ink-soft leading-relaxed">Usuwamy przecieki, wymieniamy uszkodzone dachówki i łaty, także w trybie awaryjnym, gdy liczy się czas.</p>
+      </article>
+
+      <article class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-14 h-14 rounded-full bg-oak/10 flex items-center justify-center mb-6">
+          <i data-lucide="droplets" class="w-7 h-7 text-oak-deep"></i>
+        </div>
+        <h2 class="font-display uppercase text-xl tracking-tight mb-3">Rynny i obróbki blacharskie</h2>
+        <p class="text-ink-soft leading-relaxed">Instalujemy i naprawiamy systemy rynnowe oraz obrabiamy blachą kominy, okna połaciowe i pasy nadrynnowe.</p>
+      </article>
+
+      <article class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-14 h-14 rounded-full bg-oak/10 flex items-center justify-center mb-6">
+          <i data-lucide="ruler" class="w-7 h-7 text-oak-deep"></i>
+        </div>
+        <h2 class="font-display uppercase text-xl tracking-tight mb-3">Podnośnik koszowy 20 m</h2>
+        <p class="text-ink-soft leading-relaxed">Prace na wysokości bez stawiania rusztowania. Dojeżdżamy z własnym sprzętem i zaczynamy od razu.</p>
+      </article>
+
+      <article class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-14 h-14 rounded-full bg-oak/10 flex items-center justify-center mb-6">
+          <i data-lucide="trees" class="w-7 h-7 text-oak-deep"></i>
+        </div>
+        <h2 class="font-display uppercase text-xl tracking-tight mb-3">Przycinka i wycinka drzew</h2>
+        <p class="text-ink-soft leading-relaxed">Bezpieczne przycinanie koron i usuwanie gałęzi w trudno dostępnych miejscach, z kosza podnośnika, bez wspinaczki.</p>
+      </article>
+
+      <article class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-14 h-14 rounded-full bg-oak/10 flex items-center justify-center mb-6">
+          <i data-lucide="spray-can" class="w-7 h-7 text-oak-deep"></i>
+        </div>
+        <h2 class="font-display uppercase text-xl tracking-tight mb-3">Mycie elewacji i dachów</h2>
+        <p class="text-ink-soft leading-relaxed">Czyszczenie elewacji, dachów i rynien z poziomu kosza, usuwamy mech, glony i osady bez wchodzenia na dach.</p>
+      </article>
+
+      <article class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-14 h-14 rounded-full bg-oak/10 flex items-center justify-center mb-6">
+          <i data-lucide="paint-roller" class="w-7 h-7 text-oak-deep"></i>
+        </div>
+        <h2 class="font-display uppercase text-xl tracking-tight mb-3">Remonty i wykończenia domów</h2>
+        <p class="text-ink-soft leading-relaxed">Kompleksowe prace budowlano-remontowe wewnątrz i na zewnątrz budynku, dopasowane do zakresu inwestycji.</p>
+      </article>
+
+      <article class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-14 h-14 rounded-full bg-oak/10 flex items-center justify-center mb-6">
+          <i data-lucide="triangle-alert" class="w-7 h-7 text-oak-deep"></i>
+        </div>
+        <h2 class="font-display uppercase text-xl tracking-tight mb-3">Prace wysokościowe i awaryjne</h2>
+        <p class="text-ink-soft leading-relaxed">Szybka pomoc przy awariach na wysokości: kominy, anteny, oświetlenie czy uszkodzenia po burzy.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="relative py-20 px-5 md:px-8 bg-charcoal dark-radials overflow-hidden">
+  <div class="grain"></div>
+  <div class="relative max-w-3xl mx-auto text-center">
+    <h2 class="font-display uppercase text-3xl md:text-4xl leading-[1] tracking-tight text-bone-raised mb-5">
+      Nie widzisz swojej usługi?
+    </h2>
+    <p class="text-sky-light text-lg leading-relaxed mb-9 max-w-xl mx-auto">
+      Zadzwoń i opisz zlecenie. Przy dekarstwie i pracach z podnośnika prawie każde zadanie da się dopasować, na pewno pomożemy.
+    </p>
+    <a href="tel:605216683" class="btn btn-primary rounded-full px-8 py-4 text-base inline-flex">
+      <i data-lucide="phone-call" class="w-5 h-5"></i>
+      Zadzwoń: 605 216 683
+    </a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="bg-charcoal px-5 md:px-8 pt-16 pb-8 border-t border-white/10">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid md:grid-cols-3 gap-10 mb-12">
+      <div>
+        <div class="flex items-center gap-2.5 mb-4">
+          <span class="font-display text-lg tracking-tight leading-none text-bone-raised">Wojciech Dąbek</span>
+        </div>
+        <p class="text-sky-light text-sm leading-relaxed max-w-xs">Dekarstwo, prace ciesielskie i usługi podnośnikiem koszowym 20 m. Dubin i okolice.</p>
+      </div>
+      <div class="text-sm">
+        <div class="text-sky-light uppercase tracking-wide text-xs mb-4 font-semibold">Nawigacja</div>
+        <ul class="space-y-2">
+          <li><a href="uslugi.html" class="nav-link">Usługi</a></li>
+          <li><a href="index.html#realizacje" class="nav-link">Realizacje</a></li>
+          <li><a href="index.html#opinie" class="nav-link">Opinie</a></li>
+          <li><a href="index.html#kontakt" class="nav-link">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="text-sm">
+        <div class="text-sky-light uppercase tracking-wide text-xs mb-4 font-semibold">Kontakt</div>
+        <ul class="space-y-2 text-bone-raised">
+          <li><a href="tel:605216683" class="nav-link">605 216 683</a></li>
+          <li><a href="mailto:dobrydekarz@onet.pl" class="nav-link break-all">dobrydekarz@onet.pl</a></li>
+          <li class="text-sky-light">Dubin 129, 63-930 Dubin</li>
+        </ul>
+      </div>
+    </div>
+    <div class="pt-8 border-t border-white/10 flex flex-wrap items-center justify-between gap-4 text-xs text-sky-light">
+      <span>© 2026 P.W. Wojciech Dąbek. Wszelkie prawa zastrzeżone.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  lucide.createIcons();
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealEls.forEach(el => io.observe(el));
+</script>
+</body>
+</html>
